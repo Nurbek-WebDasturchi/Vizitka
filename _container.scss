@@ -1,0 +1,25 @@
+@use '../abstract/mixins';
+
+.section {
+    width: 90%;
+}
+@include mixins.media-sm {
+    .section {
+        width: 600px;
+    }
+}
+@include mixins.media-md {
+    .section {
+        width: 700px;
+    }
+}
+@include mixins.media-lg {
+    .section {
+        width: 900px;
+    }
+}
+@include mixins.media-xl {
+    .section {
+        width: 1000px;
+    }
+}
